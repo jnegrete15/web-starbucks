@@ -1,0 +1,126 @@
+$gray: hsl(184, 6%, 91%);
+$green: hsl(145, 63%, 25%);
+$white: white;
+html {
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    .progress-container {
+        position: fixed;
+        width: 100%;
+        height: .5rem;
+        background: $gray;
+        /* The progress bar (scroll indicator) */
+        .progress-bar {
+            height: .5rem;
+            background: $green;
+            width: 0%;
+        }
+    }
+    /*Reset para Rems - 62.5% = 10px DE 160px*/
+    font-size: 62.5%;
+    box-sizing: border-box;
+    .header {
+        display: flex;
+        padding: 3rem 6%;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $gray;
+        .logo-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .starbucks-logo {
+                max-width: 12rem;
+            }
+            .log-in {
+                font-size: 2.25rem;
+                text-align: center;
+                text-decoration: underline;
+            }
+        }
+        .search-container {
+            display: flex;
+            width: 80rem;
+            .input {
+                height: 5rem;
+                width: 95%;
+                font-size: 2.5rem;
+                padding-left: 1rem;
+                border: solid .3rem;
+                border-radius: 1rem 0 0 1rem;
+            }
+            .search-icon {
+                max-width: 4rem;
+                padding: 0 .5rem;
+                border-top: solid .3rem;
+                border-bottom: solid .3rem;
+                border-right: solid .3rem;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+        }
+        .location-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 15rem;
+            .location-icon {
+                max-width: 7rem;
+            }
+            .location-p {
+                font-size: 2rem;
+                text-align: center;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        .carrito {
+            display: flex;
+            .coffee-icon {
+                max-width: 7rem;
+            }
+            .number {
+                font-size: 5rem;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+    .nav-header {
+        background-color: $gray;
+        padding: 0 6%;
+        margin: 0;
+        display: flex;
+        justify-content: flex-end;
+        height: fit-content;
+        ul {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            width: 50%;
+            align-content: flex-end;
+            .item-nav {
+                font-size: 3rem;
+                padding: 1rem 4.5rem;
+                &:hover {
+                    cursor: pointer;
+                    background-color: rgb(19, 19, 19);
+                    color: $white;
+                }
+            }
+        }
+    }
+    .separador {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        text-decoration: none;
+    }
+}

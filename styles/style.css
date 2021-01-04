@@ -1,0 +1,184 @@
+html {
+  /*Reset para Rems - 62.5% = 10px DE 160px*/
+  font-size: 62.5%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html a {
+  text-decoration: none;
+  color: black;
+}
+
+html .progress-container {
+  position: fixed;
+  width: 100%;
+  height: .5rem;
+  background: #e7e9e9;
+  /* The progress bar (scroll indicator) */
+}
+
+html .progress-container .progress-bar {
+  height: .5rem;
+  background: #186839;
+  width: 0%;
+}
+
+html .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 3rem 6%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: #e7e9e9;
+}
+
+html .header .logo-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .header .logo-container .starbucks-logo {
+  max-width: 12rem;
+}
+
+html .header .logo-container .log-in {
+  font-size: 2.25rem;
+  text-align: center;
+  text-decoration: underline;
+}
+
+html .header .search-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80rem;
+}
+
+html .header .search-container .input {
+  height: 5rem;
+  width: 95%;
+  font-size: 2.5rem;
+  padding-left: 1rem;
+  border: solid .3rem;
+  border-radius: 1rem 0 0 1rem;
+}
+
+html .header .search-container .search-icon {
+  max-width: 4rem;
+  padding: 0 .5rem;
+  border-top: solid .3rem;
+  border-bottom: solid .3rem;
+  border-right: solid .3rem;
+}
+
+html .header .search-container .search-icon:hover {
+  cursor: pointer;
+}
+
+html .header .location-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 15rem;
+}
+
+html .header .location-container .location-icon {
+  max-width: 7rem;
+}
+
+html .header .location-container .location-p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+html .header .location-container:hover {
+  cursor: pointer;
+}
+
+html .header .carrito {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .header .carrito .coffee-icon {
+  max-width: 7rem;
+}
+
+html .header .carrito .number {
+  font-size: 5rem;
+}
+
+html .header .carrito:hover {
+  cursor: pointer;
+}
+
+html .nav-header {
+  background-color: #e7e9e9;
+  padding: 0 6%;
+  margin: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+html .nav-header ul {
+  margin: 0;
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 50%;
+  -ms-flex-line-pack: end;
+      align-content: flex-end;
+}
+
+html .nav-header ul .item-nav {
+  font-size: 3rem;
+  padding: 1rem 4.5rem;
+}
+
+html .nav-header ul .item-nav:hover {
+  cursor: pointer;
+  background-color: #131313;
+  color: white;
+}
+
+html .separador {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  text-decoration: none;
+}
+/*# sourceMappingURL=style.css.map */
