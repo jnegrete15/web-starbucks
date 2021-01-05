@@ -24,7 +24,7 @@ html {
     box-sizing: border-box;
     .header {
         display: flex;
-        padding: 3rem 6%;
+        padding: 1rem 6% 0;
         align-items: center;
         justify-content: space-between;
         background-color: $gray;
@@ -78,8 +78,8 @@ html {
         }
 
         .btn{
-            font-size: 1.7rem;
-            padding: 1rem 1.5rem;
+            font-size: 1.5rem;
+            padding: .8rem 1.3rem;
             border-radius: 1rem;
             color: $white;
             background-color: $green;
@@ -118,8 +118,8 @@ html {
             width: 50%;
             align-content: flex-end;
             .item-nav {
-                font-size: 2.5rem;
-                padding: 1rem 4.5rem;
+                font-size: 2.2rem;
+                padding: 1rem 3.5rem;
                 &:hover {
                     cursor: pointer;
                     background-color: rgb(19, 19, 19);
@@ -277,7 +277,7 @@ html {
                 color: $white;
                 background-color: rgba(0, 0, 0, 0.863);
                 padding: 2rem;
-                border-radius: .1rem;
+                border-radius: 1rem;
             }
     
             .btn-mas-info{
@@ -330,6 +330,101 @@ html {
 
         .coffee-finder-image{
             width: 40%;
+        }
+    }
+
+    //MENU SECTION
+
+    .menu{
+        margin-top: 3rem;
+        display: flex;
+        padding: 0 6%;
+        flex-direction: column;
+
+        .h1-menu{
+            font-size: 3.5rem;
+        }
+
+        .p-menu{
+            font-size: 2rem;
+        }
+
+        .img-menu{
+            width: 60%;
+        }
+
+        .pie-foto-menu{
+            width: 60%;
+            font-size: 1.2rem;
+        }
+
+        .h3-menu{
+            font-size: 2rem;
+        }
+
+        a{
+            margin-top: 3rem;
+            font-size: 2.5rem;
+            font-weight: 700;
+        }
+
+        .p-bebidas{
+            width: 25rem;
+            font-size: 1.5rem;
+        }
+    }
+
+    //ABOUT US SECTION
+
+    .mt-3{
+        margin-top: 3rem;
+    }
+
+    .about-us{
+        margin: 3rem 0;
+        padding: 0 6%;
+        width: 60%;
+
+        h1{
+            font-size: 3rem;
+        }
+        p{
+            font-size: 1.3rem;
+            line-height: 2rem;
+            margin: 0;
+        }
+
+        .p-fuerte{
+            font-weight: 900;
+            font-size: 1.6rem;
+        }
+
+        h4{
+            font-size: 2rem;
+            font-weight: 400;
+        }
+
+        h2{
+            margin: 1.5rem 0 0 0;
+            font-size: 2rem;
+        }
+
+        .p-con-sangria{
+            margin: 0 0 0 1.5rem;
+        }
+
+        .descargar{
+            margin-left: 2rem;
+            display: flex;
+
+            img{
+                width: 1.5rem;
+                margin-right: .5rem;
+            }
+
+            &:hover{
+                cursor: pointer;
+            }
         }
     }
 }

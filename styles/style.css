@@ -28,7 +28,7 @@ html .header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 3rem 6%;
+  padding: 1rem 6% 0;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -115,8 +115,8 @@ html .header .location-container:hover {
 }
 
 html .header .btn {
-  font-size: 1.7rem;
-  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  padding: .8rem 1.3rem;
   border-radius: 1rem;
   color: white;
   background-color: #186839;
@@ -175,8 +175,8 @@ html .nav-header ul {
 }
 
 html .nav-header ul .item-nav {
-  font-size: 2.5rem;
-  padding: 1rem 4.5rem;
+  font-size: 2.2rem;
+  padding: 1rem 3.5rem;
 }
 
 html .nav-header ul .item-nav:hover {
@@ -363,7 +363,7 @@ html .our-coffee-section .our-coffee-section-content .p-our-coffee-section {
   color: white;
   background-color: rgba(0, 0, 0, 0.863);
   padding: 2rem;
-  border-radius: .1rem;
+  border-radius: 1rem;
 }
 
 html .our-coffee-section .our-coffee-section-content .btn-mas-info {
@@ -422,5 +422,104 @@ html .coffee-finder a {
 
 html .coffee-finder .coffee-finder-image {
   width: 40%;
+}
+
+html .menu {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .menu .h1-menu {
+  font-size: 3.5rem;
+}
+
+html .menu .p-menu {
+  font-size: 2rem;
+}
+
+html .menu .img-menu {
+  width: 60%;
+}
+
+html .menu .pie-foto-menu {
+  width: 60%;
+  font-size: 1.2rem;
+}
+
+html .menu .h3-menu {
+  font-size: 2rem;
+}
+
+html .menu a {
+  margin-top: 3rem;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+
+html .menu .p-bebidas {
+  width: 25rem;
+  font-size: 1.5rem;
+}
+
+html .mt-3 {
+  margin-top: 3rem;
+}
+
+html .about-us {
+  margin: 3rem 0;
+  padding: 0 6%;
+  width: 60%;
+}
+
+html .about-us h1 {
+  font-size: 3rem;
+}
+
+html .about-us p {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  margin: 0;
+}
+
+html .about-us .p-fuerte {
+  font-weight: 900;
+  font-size: 1.6rem;
+}
+
+html .about-us h4 {
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+html .about-us h2 {
+  margin: 1.5rem 0 0 0;
+  font-size: 2rem;
+}
+
+html .about-us .p-con-sangria {
+  margin: 0 0 0 1.5rem;
+}
+
+html .about-us .descargar {
+  margin-left: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .about-us .descargar img {
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+html .about-us .descargar:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */
