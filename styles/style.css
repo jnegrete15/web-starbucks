@@ -328,4 +328,99 @@ html .footer .rights-footer {
   font-weight: 700;
   color: #666666;
 }
+
+html .our-coffee-section {
+  padding: 0 6%;
+  margin-top: 3rem;
+  background-image: url("../assets/since.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 62rem;
+}
+
+html .our-coffee-section .our-coffee-section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+html .our-coffee-section .our-coffee-section-content .h2-our-coffee-section {
+  color: white;
+  font-size: 5rem;
+  font-weight: 900;
+  margin: 5.5rem 0 3rem 0;
+}
+
+html .our-coffee-section .our-coffee-section-content .p-our-coffee-section {
+  margin-top: 0;
+  font-size: 2.4rem;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.863);
+  padding: 2rem;
+  border-radius: .1rem;
+}
+
+html .our-coffee-section .our-coffee-section-content .btn-mas-info {
+  border-radius: .5rem;
+  padding: 1rem 1.5rem;
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  text-decoration: none;
+  max-width: -webkit-fit-content;
+  max-width: -moz-fit-content;
+  max-width: fit-content;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-weight: 500;
+}
+
+html .our-coffee-section .our-coffee-section-content .btn-mas-info:hover {
+  color: white;
+  background-color: #186839;
+}
+
+html .coffee-finder {
+  margin-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0 6%;
+}
+
+html .coffee-finder .coffee-finder-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 60%;
+}
+
+html .coffee-finder .coffee-finder-content .h2-coffee-finder {
+  font-size: 4rem;
+}
+
+html .coffee-finder .coffee-finder-content .p-coffee-finder {
+  font-size: 2.5rem;
+  width: 80%;
+}
+
+html .coffee-finder a {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: underline;
+}
+
+html .coffee-finder .coffee-finder-image {
+  width: 40%;
+}
 /*# sourceMappingURL=style.css.map */
