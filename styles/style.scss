@@ -1,6 +1,7 @@
 $gray: hsl(184, 6%, 91%);
 $green: hsl(145, 63%, 25%);
 $white: white;
+$wine: rgb(106, 3, 54);
 html {
     a {
         text-decoration: none;
@@ -27,36 +28,33 @@ html {
         align-items: center;
         justify-content: space-between;
         background-color: $gray;
+        height: fit-content;
         .logo-container {
             display: flex;
             flex-direction: column;
             align-items: center;
             .starbucks-logo {
-                max-width: 12rem;
-            }
-            .log-in {
-                font-size: 2.25rem;
-                text-align: center;
-                text-decoration: underline;
+                max-width: 8rem;
             }
         }
         .search-container {
             display: flex;
-            width: 80rem;
+            width: 40%;
             .input {
-                height: 5rem;
-                width: 95%;
-                font-size: 2.5rem;
+                height: 3.5rem;
+                width: 90%;
+                font-size: 1.6rem;
                 padding-left: 1rem;
-                border: solid .3rem;
+                border: solid .2rem;
                 border-radius: 1rem 0 0 1rem;
             }
             .search-icon {
-                max-width: 4rem;
+                max-width: 3.5rem;
                 padding: 0 .5rem;
-                border-top: solid .3rem;
-                border-bottom: solid .3rem;
-                border-right: solid .3rem;
+                border-top: solid .2rem;
+                border-bottom: solid .2rem;
+                border-right: solid .2rem;
+                border-radius: 0 1rem 1rem 0;
                 &:hover {
                     cursor: pointer;
                 }
@@ -66,25 +64,39 @@ html {
             display: flex;
             flex-direction: column;
             align-items: center;
-            max-width: 15rem;
+            max-width: 13rem;
             .location-icon {
-                max-width: 7rem;
+                max-width: 4rem;
             }
             .location-p {
-                font-size: 2rem;
+                font-size: 1.5rem;
                 text-align: center;
             }
             &:hover {
                 cursor: pointer;
             }
         }
+
+        .btn{
+            font-size: 1.7rem;
+            padding: 1rem 1.5rem;
+            border-radius: 1rem;
+            color: $white;
+            background-color: $green;
+
+            &:hover{
+            background-color: $wine;
+            cursor: pointer;
+            }
+        }
+
         .carrito {
             display: flex;
             .coffee-icon {
-                max-width: 7rem;
+                max-width: 5rem;
             }
             .number {
-                font-size: 5rem;
+                font-size: 3rem;
             }
             &:hover {
                 cursor: pointer;
@@ -106,7 +118,7 @@ html {
             width: 50%;
             align-content: flex-end;
             .item-nav {
-                font-size: 3rem;
+                font-size: 2.5rem;
                 padding: 1rem 4.5rem;
                 &:hover {
                     cursor: pointer;
@@ -118,9 +130,120 @@ html {
     }
     .separador {
         width: 100%;
+        height: 5rem;
         margin: 0;
         padding: 0;
         border: none;
         text-decoration: none;
+    }
+
+    .main-section{
+        display: flex;
+        padding: 10rem 6%;
+        margin-top: 3rem;
+        background-color: rgb(0, 75, 61);
+        justify-content: space-around;
+
+        .image-main-section{
+            width: 60rem;
+        }
+
+        .h2-main-section{
+            font-size: 5rem;
+            margin-left: 2rem;
+            line-height: 7rem;
+            color: $white;
+        }
+    }
+
+    .social-media{
+        display: flex;
+        margin-top: 3rem;
+        background-color: $gray;
+        padding: 2rem 6%;
+
+        .icon-social-media{
+            width: 5rem;
+            margin-right: 7rem;
+
+            &:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-top: .5rem;
+        background-color: $gray;
+        padding: 2rem 6%;
+        .menu-footer{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 5rem;
+
+            .footer-items{
+                display: flex;
+                flex-direction: column;
+
+                .footer-item-heading{
+                    font-size: 2rem;
+                    font-weight: 700;
+                    margin-bottom: 1.5rem;
+                }
+                
+                .footer-item{
+                    font-size: 1.5rem;
+                    margin-bottom: 2.5rem;
+                    font-weight: 700;
+                    color: rgb(75, 75, 75);
+
+                    &:hover{
+                        color: rgb(0, 0, 0);
+                    }
+
+                }
+            }
+
+            .starbucks{
+                transform: rotate(270deg);
+                width: fit-content;
+                height: fit-content;
+                align-items: flex-end;
+                justify-self: flex-end;
+                margin: 0;
+                text-align: center;
+            }
+        }
+
+        .submenu-footer{
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+
+            .item-submenu-footer{
+                
+                border-right: solid .1rem;
+                padding: 0 2rem;
+
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+
+            :last-child{
+                border: none;
+            }
+
+            :first-child{
+                padding-left: 0;
+            }
+        }
+
+        .rights-footer{
+            font-size: 1.4rem;
+            font-weight: 700;
+            color: rgb(102, 102, 102);
+        }
     }
 }

@@ -36,6 +36,9 @@ html .header {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #e7e9e9;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 html .header .logo-container {
@@ -52,37 +55,32 @@ html .header .logo-container {
 }
 
 html .header .logo-container .starbucks-logo {
-  max-width: 12rem;
-}
-
-html .header .logo-container .log-in {
-  font-size: 2.25rem;
-  text-align: center;
-  text-decoration: underline;
+  max-width: 8rem;
 }
 
 html .header .search-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80rem;
+  width: 40%;
 }
 
 html .header .search-container .input {
-  height: 5rem;
-  width: 95%;
-  font-size: 2.5rem;
+  height: 3.5rem;
+  width: 90%;
+  font-size: 1.6rem;
   padding-left: 1rem;
-  border: solid .3rem;
+  border: solid .2rem;
   border-radius: 1rem 0 0 1rem;
 }
 
 html .header .search-container .search-icon {
-  max-width: 4rem;
+  max-width: 3.5rem;
   padding: 0 .5rem;
-  border-top: solid .3rem;
-  border-bottom: solid .3rem;
-  border-right: solid .3rem;
+  border-top: solid .2rem;
+  border-bottom: solid .2rem;
+  border-right: solid .2rem;
+  border-radius: 0 1rem 1rem 0;
 }
 
 html .header .search-container .search-icon:hover {
@@ -100,19 +98,32 @@ html .header .location-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 15rem;
+  max-width: 13rem;
 }
 
 html .header .location-container .location-icon {
-  max-width: 7rem;
+  max-width: 4rem;
 }
 
 html .header .location-container .location-p {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 
 html .header .location-container:hover {
+  cursor: pointer;
+}
+
+html .header .btn {
+  font-size: 1.7rem;
+  padding: 1rem 1.5rem;
+  border-radius: 1rem;
+  color: white;
+  background-color: #186839;
+}
+
+html .header .btn:hover {
+  background-color: #6a0336;
   cursor: pointer;
 }
 
@@ -123,11 +134,11 @@ html .header .carrito {
 }
 
 html .header .carrito .coffee-icon {
-  max-width: 7rem;
+  max-width: 5rem;
 }
 
 html .header .carrito .number {
-  font-size: 5rem;
+  font-size: 3rem;
 }
 
 html .header .carrito:hover {
@@ -164,7 +175,7 @@ html .nav-header ul {
 }
 
 html .nav-header ul .item-nav {
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding: 1rem 4.5rem;
 }
 
@@ -176,9 +187,145 @@ html .nav-header ul .item-nav:hover {
 
 html .separador {
   width: 100%;
+  height: 5rem;
   margin: 0;
   padding: 0;
   border: none;
   text-decoration: none;
+}
+
+html .main-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rem 6%;
+  margin-top: 3rem;
+  background-color: #004b3d;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html .main-section .image-main-section {
+  width: 60rem;
+}
+
+html .main-section .h2-main-section {
+  font-size: 5rem;
+  margin-left: 2rem;
+  line-height: 7rem;
+  color: white;
+}
+
+html .social-media {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+  background-color: #e7e9e9;
+  padding: 2rem 6%;
+}
+
+html .social-media .icon-social-media {
+  width: 5rem;
+  margin-right: 7rem;
+}
+
+html .social-media .icon-social-media:hover {
+  cursor: pointer;
+}
+
+html .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: .5rem;
+  background-color: #e7e9e9;
+  padding: 2rem 6%;
+}
+
+html .footer .menu-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 5rem;
+}
+
+html .footer .menu-footer .footer-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .footer .menu-footer .footer-items .footer-item-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+html .footer .menu-footer .footer-items .footer-item {
+  font-size: 1.5rem;
+  margin-bottom: 2.5rem;
+  font-weight: 700;
+  color: #4b4b4b;
+}
+
+html .footer .menu-footer .footer-items .footer-item:hover {
+  color: black;
+}
+
+html .footer .menu-footer .starbucks {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  justify-self: flex-end;
+  margin: 0;
+  text-align: center;
+}
+
+html .footer .submenu-footer {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+html .footer .submenu-footer .item-submenu-footer {
+  border-right: solid .1rem;
+  padding: 0 2rem;
+}
+
+html .footer .submenu-footer .item-submenu-footer:hover {
+  text-decoration: underline;
+}
+
+html .footer .submenu-footer :last-child {
+  border: none;
+}
+
+html .footer .submenu-footer :first-child {
+  padding-left: 0;
+}
+
+html .footer .rights-footer {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #666666;
 }
 /*# sourceMappingURL=style.css.map */
