@@ -1,4 +1,5 @@
 html {
+  font-family: 'Source Sans Pro', sans-serif;
   /*Reset para Rems - 62.5% = 10px DE 160px*/
   font-size: 62.5%;
   -webkit-box-sizing: border-box;
@@ -187,11 +188,7 @@ html .nav-header ul .item-nav:hover {
 
 html .separador {
   width: 100%;
-  height: 5rem;
-  margin: 0;
-  padding: 0;
-  border: none;
-  text-decoration: none;
+  height: 8rem;
 }
 
 html .main-section {
@@ -199,8 +196,9 @@ html .main-section {
   display: -ms-flexbox;
   display: flex;
   padding: 10rem 6%;
-  margin-top: 3rem;
-  background-color: #004b3d;
+  margin-top: -.2516rem;
+  background: #004b3d;
+  background: linear-gradient(45deg, #a32020 0%, rgba(177, 177, 177, 0.678) 35%, #00522c 70%);
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
@@ -214,6 +212,7 @@ html .main-section .h2-main-section {
   margin-left: 2rem;
   line-height: 7rem;
   color: white;
+  font-weight: 900;
 }
 
 html .social-media {
@@ -331,7 +330,7 @@ html .footer .rights-footer {
 
 html .our-coffee-section {
   padding: 0 6%;
-  margin-top: 3rem;
+  margin-top: -.2516rem;
   background-image: url("../assets/since.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -354,12 +353,13 @@ html .our-coffee-section .our-coffee-section-content .h2-our-coffee-section {
   color: white;
   font-size: 5rem;
   font-weight: 900;
-  margin: 5.5rem 0 3rem 0;
+  margin: 5.5rem 0 3rem;
 }
 
 html .our-coffee-section .our-coffee-section-content .p-our-coffee-section {
   margin-top: 0;
   font-size: 2.4rem;
+  line-height: 3rem;
   color: white;
   background-color: rgba(0, 0, 0, 0.863);
   padding: 2rem;
@@ -378,7 +378,7 @@ html .our-coffee-section .our-coffee-section-content .btn-mas-info {
   max-width: fit-content;
   -ms-flex-item-align: end;
       align-self: flex-end;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 html .our-coffee-section .our-coffee-section-content .btn-mas-info:hover {
@@ -425,7 +425,7 @@ html .coffee-finder .coffee-finder-image {
 }
 
 html .menu {
-  margin-top: 3rem;
+  margin-top: -.2516rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -461,6 +461,15 @@ html .menu a {
   margin-top: 3rem;
   font-size: 2.5rem;
   font-weight: 700;
+  color: #186839;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+html .menu a:hover {
+  color: white;
+  background-color: #186839;
 }
 
 html .menu .p-bebidas {
@@ -524,7 +533,7 @@ html .about-us .descargar:hover {
 }
 
 html .drinks {
-  margin: 3rem 0 7rem;
+  margin: -.2516rem 0 7rem;
   padding: 0 6%;
 }
 
@@ -572,7 +581,7 @@ html .drinks .drinks-content .column .drink-description {
 }
 
 html .drinks-category {
-  margin: 3rem 0 6rem;
+  margin: -.2516rem 0 6rem;
   padding: 0 6%;
   display: -webkit-box;
   display: -ms-flexbox;

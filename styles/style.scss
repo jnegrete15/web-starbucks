@@ -3,6 +3,8 @@ $green: hsl(145, 63%, 25%);
 $white: white;
 $wine: rgb(106, 3, 54);
 html {
+    font-family: 'Source Sans Pro', sans-serif;
+
     a {
         text-decoration: none;
         color: black;
@@ -127,17 +129,14 @@ html {
     }
     .separador {
         width: 100%;
-        height: 5rem;
-        margin: 0;
-        padding: 0;
-        border: none;
-        text-decoration: none;
+        height: 8rem;
     }
     .main-section {
         display: flex;
         padding: 10rem 6%;
-        margin-top: 3rem;
-        background-color: rgb(0, 75, 61);
+        margin-top: -.2516rem;
+        background: rgb(0, 75, 61);
+        background: linear-gradient(45deg,rgb(163, 32, 32) 0%, rgba(177, 177, 177, 0.678) 35%, rgb(0, 82, 44) 70%);
         justify-content: space-around;
         .image-main-section {
             width: 60rem;
@@ -147,6 +146,7 @@ html {
             margin-left: 2rem;
             line-height: 7rem;
             color: $white;
+            font-weight: 900;
         }
     }
     .social-media {
@@ -226,7 +226,7 @@ html {
     //COFFEE SECTION
     .our-coffee-section {
         padding: 0 6%;
-        margin-top: 3rem;
+        margin-top: -.2516rem;
         background-image: url('../assets/since.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -240,11 +240,12 @@ html {
                 color: $white;
                 font-size: 5rem;
                 font-weight: 900;
-                margin: 5.5rem 0 3rem 0;
+                margin: 5.5rem 0 3rem;
             }
             .p-our-coffee-section {
                 margin-top: 0;
                 font-size: 2.4rem;
+                line-height: 3rem;
                 color: $white;
                 background-color: rgba(0, 0, 0, 0.863);
                 padding: 2rem;
@@ -259,7 +260,7 @@ html {
                 text-decoration: none;
                 max-width: fit-content;
                 align-self: flex-end;
-                font-weight: 500;
+                font-weight: 600;
                 &:hover {
                     color: $white;
                     background-color: $green;
@@ -294,7 +295,7 @@ html {
     }
     //MENU SECTION
     .menu {
-        margin-top: 3rem;
+        margin-top: -.2516rem;
         display: flex;
         padding: 0 6%;
         flex-direction: column;
@@ -318,6 +319,13 @@ html {
             margin-top: 3rem;
             font-size: 2.5rem;
             font-weight: 700;
+            color: $green;
+            width: fit-content;
+
+            &:hover{
+                color: $white;
+                background-color: $green;
+            }
         }
         .p-bebidas {
             width: 25rem;
@@ -369,10 +377,11 @@ html {
     }
     //DRINK SECTION
     .drinks {
-        margin: 3rem 0 7rem;
+        margin: -.2516rem 0 7rem;
         padding: 0 6%;
         h1 {
             font-size: 4rem;
+           
         }
         .drinks-content {
             display: flex;
@@ -402,7 +411,7 @@ html {
     }
     //CATEGORY
     .drinks-category {
-        margin: 3rem 0 6rem;
+        margin: -.2516rem 0 6rem;
         padding: 0 6%;
         display: flex;
         flex-direction: column;
