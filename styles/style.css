@@ -522,4 +522,159 @@ html .about-us .descargar img {
 html .about-us .descargar:hover {
   cursor: pointer;
 }
+
+html .drinks {
+  margin: 3rem 0 7rem;
+  padding: 0 6%;
+}
+
+html .drinks h1 {
+  font-size: 4rem;
+}
+
+html .drinks .drinks-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 3rem;
+}
+
+html .drinks .drinks-content .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 40%;
+}
+
+html .drinks .drinks-content .column .drink-title {
+  font-size: 3rem;
+  padding: .2rem .2rem;
+  font-weight: 700;
+  color: green;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+html .drinks .drinks-content .column .drink-title:hover {
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+html .drinks .drinks-content .column .drink-description {
+  font-size: 1.5rem;
+  margin: 0 0 3rem;
+}
+
+html .drinks-category {
+  margin: 3rem 0 6rem;
+  padding: 0 6%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+html .drinks-category .category-title {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+html .drinks-category .card-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html .drinks-category .card-content .card {
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: whitesmoke;
+  border: solid 0.1rem #747474;
+  border-radius: 2rem 2rem 1rem 1rem;
+  margin-bottom: 2rem;
+}
+
+html .drinks-category .card-content .card .img-category {
+  width: 100%;
+  height: 30rem;
+  border-radius: 2rem 2rem 0 0;
+}
+
+html .drinks-category .card-content .card .description {
+  font-size: 2rem;
+  margin: 1rem 0rem;
+  margin-left: 1.5rem;
+}
+
+html .drinks-category .card-content .card .rating-bar {
+  height: 2rem;
+  padding: 0;
+  margin-left: 1.5rem;
+}
+
+html .drinks-category .card-content .card .rating-bar .star {
+  font-size: 2rem;
+  margin: 0;
+}
+
+html .drinks-category .card-content .card .checked {
+  color: orange;
+}
+
+html .drinks-category .card-content .card .precio {
+  font-size: 2rem;
+  margin: 1rem 0 1rem 1.5rem;
+}
+
+html .drinks-category .card-content .card .btn-buy {
+  width: calc(100% - .35rem);
+  color: white;
+  background-color: #186839;
+  padding: 1rem 0rem;
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  border: solid 0.2rem #186839;
+}
+
+html .drinks-category .card-content .card .btn-buy:hover {
+  background-color: white;
+  color: #186839;
+}
+
+html .drinks-category .card-content .card .wine {
+  background-color: #6a0336;
+  border: solid 0.2rem #6a0336;
+  margin-bottom: 0;
+  border-radius: 0 0 1rem 1rem;
+}
+
+html .drinks-category .card-content .card .wine:hover {
+  color: #6a0336;
+}
 /*# sourceMappingURL=style.css.map */

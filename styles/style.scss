@@ -76,20 +76,17 @@ html {
                 cursor: pointer;
             }
         }
-
-        .btn{
+        .btn {
             font-size: 1.5rem;
             padding: .8rem 1.3rem;
             border-radius: 1rem;
             color: $white;
             background-color: $green;
-
-            &:hover{
-            background-color: $wine;
-            cursor: pointer;
+            &:hover {
+                background-color: $wine;
+                cursor: pointer;
             }
         }
-
         .carrito {
             display: flex;
             .coffee-icon {
@@ -136,77 +133,64 @@ html {
         border: none;
         text-decoration: none;
     }
-
-    .main-section{
+    .main-section {
         display: flex;
         padding: 10rem 6%;
         margin-top: 3rem;
         background-color: rgb(0, 75, 61);
         justify-content: space-around;
-
-        .image-main-section{
+        .image-main-section {
             width: 60rem;
         }
-
-        .h2-main-section{
+        .h2-main-section {
             font-size: 5rem;
             margin-left: 2rem;
             line-height: 7rem;
             color: $white;
         }
     }
-
-    .social-media{
+    .social-media {
         display: flex;
         margin-top: 3rem;
         background-color: $gray;
         padding: 2rem 6%;
-
-        .icon-social-media{
+        .icon-social-media {
             width: 5rem;
             margin-right: 7rem;
-
-            &:hover{
+            &:hover {
                 cursor: pointer;
             }
         }
     }
-
-    .footer{
+    .footer {
         display: flex;
         flex-direction: column;
         margin-top: .5rem;
         background-color: $gray;
         padding: 2rem 6%;
-        .menu-footer{
+        .menu-footer {
             display: flex;
             justify-content: space-between;
             margin-top: 5rem;
-
-            .footer-items{
+            .footer-items {
                 display: flex;
                 flex-direction: column;
-
-                .footer-item-heading{
+                .footer-item-heading {
                     font-size: 2rem;
                     font-weight: 700;
                     margin-bottom: 1.5rem;
                 }
-                
-                .footer-item{
+                .footer-item {
                     font-size: 1.5rem;
                     margin-bottom: 2.5rem;
                     font-weight: 700;
                     color: rgb(75, 75, 75);
-
-                    &:hover{
+                    &:hover {
                         color: rgb(0, 0, 0);
                     }
-
                 }
             }
-
-            .starbucks{
+            .starbucks {
                 transform: rotate(270deg);
                 width: fit-content;
                 height: fit-content;
@@ -216,40 +200,31 @@ html {
                 text-align: center;
             }
         }
-
-        .submenu-footer{
+        .submenu-footer {
             font-size: 1.5rem;
             margin-bottom: 2rem;
-
-            .item-submenu-footer{
-                
+            .item-submenu-footer {
                 border-right: solid .1rem;
                 padding: 0 2rem;
-
-                &:hover{
+                &:hover {
                     text-decoration: underline;
                 }
             }
-
-            :last-child{
+             :last-child {
                 border: none;
             }
-
-            :first-child{
+             :first-child {
                 padding-left: 0;
             }
         }
-
-        .rights-footer{
+        .rights-footer {
             font-size: 1.4rem;
             font-weight: 700;
             color: rgb(102, 102, 102);
         }
     }
-
     //COFFEE SECTION
-
-    .our-coffee-section{
+    .our-coffee-section {
         padding: 0 6%;
         margin-top: 3rem;
         background-image: url('../assets/since.jpg');
@@ -257,21 +232,17 @@ html {
         background-size: cover;
         background-position: center;
         height: 62rem;
-        
-
-        .our-coffee-section-content{
+        .our-coffee-section-content {
             display: flex;
             flex-direction: column;
             width: 40%;
-
-            .h2-our-coffee-section{
+            .h2-our-coffee-section {
                 color: $white;
                 font-size: 5rem;
                 font-weight: 900;
                 margin: 5.5rem 0 3rem 0;
             }
-    
-            .p-our-coffee-section{
+            .p-our-coffee-section {
                 margin-top: 0;
                 font-size: 2.4rem;
                 color: $white;
@@ -279,8 +250,7 @@ html {
                 padding: 2rem;
                 border-radius: 1rem;
             }
-    
-            .btn-mas-info{
+            .btn-mas-info {
                 border-radius: .5rem;
                 padding: 1rem 1.5rem;
                 background-color: $white;
@@ -290,140 +260,219 @@ html {
                 max-width: fit-content;
                 align-self: flex-end;
                 font-weight: 500;
-
-                &:hover{
+                &:hover {
                     color: $white;
                     background-color: $green;
                 }
             }
-
         }
-
     }
-
-    .coffee-finder{
+    .coffee-finder {
         margin-top: 3rem;
         display: flex;
         padding: 0 6%;
-
-        .coffee-finder-content{
+        .coffee-finder-content {
             display: flex;
             flex-direction: column;
             width: 60%;
-
-            .h2-coffee-finder{
+            .h2-coffee-finder {
                 font-size: 4rem;
             }
-
-            .p-coffee-finder{
+            .p-coffee-finder {
                 font-size: 2.5rem;
                 width: 80%;
-
             }
         }
-
-        a{
+        a {
             font-size: 2rem;
             margin-bottom: 1rem;
             text-decoration: underline;
         }
-
-        .coffee-finder-image{
+        .coffee-finder-image {
             width: 40%;
         }
     }
-
     //MENU SECTION
-
-    .menu{
+    .menu {
         margin-top: 3rem;
         display: flex;
         padding: 0 6%;
         flex-direction: column;
-
-        .h1-menu{
+        .h1-menu {
             font-size: 3.5rem;
         }
-
-        .p-menu{
+        .p-menu {
             font-size: 2rem;
         }
-
-        .img-menu{
+        .img-menu {
             width: 60%;
         }
-
-        .pie-foto-menu{
+        .pie-foto-menu {
             width: 60%;
             font-size: 1.2rem;
         }
-
-        .h3-menu{
+        .h3-menu {
             font-size: 2rem;
         }
-
-        a{
+        a {
             margin-top: 3rem;
             font-size: 2.5rem;
             font-weight: 700;
         }
-
-        .p-bebidas{
+        .p-bebidas {
             width: 25rem;
             font-size: 1.5rem;
         }
     }
-
     //ABOUT US SECTION
-
-    .mt-3{
+    .mt-3 {
         margin-top: 3rem;
     }
-
-    .about-us{
+    .about-us {
         margin: 3rem 0;
         padding: 0 6%;
         width: 60%;
-
-        h1{
+        h1 {
             font-size: 3rem;
         }
-        p{
+        p {
             font-size: 1.3rem;
             line-height: 2rem;
             margin: 0;
         }
-
-        .p-fuerte{
+        .p-fuerte {
             font-weight: 900;
             font-size: 1.6rem;
         }
-
-        h4{
+        h4 {
             font-size: 2rem;
             font-weight: 400;
         }
-
-        h2{
+        h2 {
             margin: 1.5rem 0 0 0;
             font-size: 2rem;
         }
-
-        .p-con-sangria{
+        .p-con-sangria {
             margin: 0 0 0 1.5rem;
         }
-
-        .descargar{
+        .descargar {
             margin-left: 2rem;
             display: flex;
-
-            img{
+            img {
                 width: 1.5rem;
                 margin-right: .5rem;
             }
-
-            &:hover{
+            &:hover {
                 cursor: pointer;
+            }
+        }
+    }
+    //DRINK SECTION
+    .drinks {
+        margin: 3rem 0 7rem;
+        padding: 0 6%;
+        h1 {
+            font-size: 4rem;
+        }
+        .drinks-content {
+            display: flex;
+            margin-top: 3rem;
+            .column {
+                display: flex;
+                flex-direction: column;
+                width: 40%;
+                .drink-title {
+                    font-size: 3rem;
+                    padding: .2rem .2rem;
+                    font-weight: 700;
+                    color: green;
+                    width: fit-content;
+                    &:hover {
+                        cursor: pointer;
+                        background-color: green;
+                        color: $white;
+                    }
+                }
+                .drink-description {
+                    font-size: 1.5rem;
+                    margin: 0 0 3rem;
+                }
+            }
+        }
+    }
+    //CATEGORY
+    .drinks-category {
+        margin: 3rem 0 6rem;
+        padding: 0 6%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        .category-title {
+            font-size: 4rem;
+            font-weight: 700;
+        }
+        .card-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            .card {
+                width: 30%;
+                height: fit-content;
+                display: flex;
+                flex-direction: column;
+                background-color: rgb(245, 245, 245);
+                border: solid .1rem rgb(116, 116, 116);
+                border-radius: 2rem 2rem 1rem 1rem;
+                margin-bottom: 2rem;
+                .img-category {
+                    width: 100%;
+                    height: 30rem;
+                    border-radius: 2rem 2rem 0 0;
+                }
+                .description {
+                    font-size: 2rem;
+                    margin: 1rem 0rem;
+                    margin-left: 1.5rem;
+                }
+                .rating-bar {
+                    height: 2rem;
+                    padding: 0;
+                    margin-left: 1.5rem;
+                    .star {
+                        font-size: 2rem;
+                        margin: 0;
+                    }
+                }
+                .checked {
+                    color: orange;
+                }
+                .precio {
+                    font-size: 2rem;
+                    margin: 1rem 0 1rem 1.5rem;
+                }
+                .btn-buy {
+                    width: calc(100% - .35rem);
+                    color: $white;
+                    background-color: $green;
+                    padding: 1rem 0rem;
+                    text-align: center;
+                    font-size: 2rem;
+                    margin-bottom: 1rem;
+                    border: solid .2rem $green;
+                    &:hover {
+                        background-color: $white;
+                        color: $green;
+                    }
+                }
+                .wine {
+                    background-color: $wine;
+                    border: solid .2rem $wine;
+                    margin-bottom: 0;
+                    border-radius: 0 0 1rem 1rem;
+                    &:hover {
+                        color: $wine;
+                    }
+                }
             }
         }
     }
