@@ -11,6 +11,10 @@ html a {
   color: black;
 }
 
+html img:hover {
+  cursor: pointer;
+}
+
 html .progress-container {
   position: fixed;
   width: 100%;
@@ -56,7 +60,11 @@ html .header .logo-container {
 }
 
 html .header .logo-container .starbucks-logo {
-  max-width: 8rem;
+  max-width: 10rem;
+}
+
+html .header .logo-container .starbucks-logo:hover {
+  cursor: pointer;
 }
 
 html .header .search-container {
@@ -99,16 +107,19 @@ html .header .location-container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  max-width: 13rem;
+  max-width: 14rem;
+  text-align: center;
 }
 
 html .header .location-container .location-icon {
   max-width: 4rem;
+  margin: auto;
 }
 
 html .header .location-container .location-p {
   font-size: 1.5rem;
   text-align: center;
+  margin: 0 auto;
 }
 
 html .header .location-container:hover {
@@ -177,7 +188,7 @@ html .nav-header ul {
 
 html .nav-header ul .item-nav {
   font-size: 2.2rem;
-  padding: 1rem 3.5rem;
+  padding: 1rem 5rem;
 }
 
 html .nav-header ul .item-nav:hover {
@@ -219,9 +230,10 @@ html .social-media {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 3rem;
+  margin-top: -.5rem;
   background-color: #e7e9e9;
   padding: 2rem 6%;
+  height: 7rem;
 }
 
 html .social-media .icon-social-media {
@@ -231,6 +243,11 @@ html .social-media .icon-social-media {
 
 html .social-media .icon-social-media:hover {
   cursor: pointer;
+  width: 5.5rem;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  -webkit-transition-timing-function: 1s;
+          transition-timing-function: 1s;
 }
 
 html .footer {
@@ -425,7 +442,7 @@ html .coffee-finder .coffee-finder-image {
 }
 
 html .menu {
-  margin-top: -.2516rem;
+  margin: -.2516rem 0 4rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,6 +459,7 @@ html .menu .h1-menu {
 
 html .menu .p-menu {
   font-size: 2rem;
+  margin: 0 0 2rem;
 }
 
 html .menu .img-menu {
@@ -451,10 +469,12 @@ html .menu .img-menu {
 html .menu .pie-foto-menu {
   width: 60%;
   font-size: 1.2rem;
+  margin: 0;
 }
 
 html .menu .h3-menu {
   font-size: 2rem;
+  margin: 3rem 0 0;
 }
 
 html .menu a {
@@ -475,66 +495,153 @@ html .menu a:hover {
 html .menu .p-bebidas {
   width: 25rem;
   font-size: 1.5rem;
+  margin: 0;
+}
+
+html p {
+  font-size: 2rem;
+  line-height: 2rem;
+  margin: 5rem auto;
+  width: 80%;
 }
 
 html .mt-3 {
   margin-top: 3rem;
+  line-height: 3rem;
 }
 
 html .about-us {
-  margin: 3rem 0;
-  padding: 0 6%;
-  width: 60%;
+  margin: 3rem 0 5rem;
+  text-align: center;
 }
 
 html .about-us h1 {
   font-size: 3rem;
+  width: 100%;
 }
 
-html .about-us p {
-  font-size: 1.3rem;
-  line-height: 2rem;
-  margin: 0;
-}
-
-html .about-us .p-fuerte {
-  font-weight: 900;
-  font-size: 1.6rem;
-}
-
-html .about-us h4 {
-  font-size: 2rem;
-  font-weight: 400;
-}
-
-html .about-us h2 {
-  margin: 1.5rem 0 0 0;
-  font-size: 2rem;
-}
-
-html .about-us .p-con-sangria {
-  margin: 0 0 0 1.5rem;
-}
-
-html .about-us .descargar {
-  margin-left: 2rem;
+html .about-us .empresa {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0 6% 3rem;
+  padding-top: 6rem;
 }
 
-html .about-us .descargar img {
-  width: 1.5rem;
-  margin-right: .5rem;
+html .about-us .empresa .text-content {
+  width: 50%;
 }
 
-html .about-us .descargar:hover {
+html .about-us .empresa .text-content .p-fuerte {
+  font-weight: 700;
+  font-size: 3rem;
+  width: 90%;
+  margin-bottom: 2rem;
+  line-height: 3rem;
+}
+
+html .about-us .empresa .img-empresa {
+  width: 50%;
+  border-radius: 4rem;
+}
+
+html .about-us .container-more-than-coffee {
+  background-color: #f2f2f2;
+}
+
+html .about-us .container-more-than-coffee .more-than-coffee {
+  margin-top: 10rem;
+  padding: 3rem 0 6rem;
+}
+
+html .about-us .container-more-than-coffee .more-than-coffee .p-more-than-coffee {
+  line-height: 3rem;
+}
+
+html .about-us .container-more-than-coffee .more-than-coffee .more_than_coffee_img {
+  border-radius: 50%;
+  width: 30rem;
+  height: 30rem;
+}
+
+html .about-us h4 {
+  font-size: 3rem;
+  font-weight: 900;
+}
+
+html .about-us .p-con-sangria {
+  margin: 0 auto;
+}
+
+html .about-us .more-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 6% 3rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+html .about-us .more-about-us .card-about-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 30%;
+  text-align: center;
+  margin: 0 auto;
+  height: 36rem;
+}
+
+html .about-us .more-about-us .card-about-us .h2-more-about-us {
+  font-size: 3rem;
+}
+
+html .about-us .more-about-us .card-about-us .descargar {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .about-us .more-about-us .card-about-us .descargar .img-more-anout-us {
+  width: 19rem;
+  margin-top: 2rem;
+}
+
+html .about-us .more-about-us .card-about-us .descargar .img-more-anout-us:hover {
+  width: 20rem;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  cursor: pointer;
+}
+
+html .about-us .more-about-us .card-about-us .descargar .p-download {
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+html .about-us .more-about-us .card-about-us .descargar .p-download:hover {
   cursor: pointer;
 }
 
 html .drinks {
   margin: -.2516rem 0 7rem;
   padding: 0 6%;
+  text-align: center;
 }
 
 html .drinks h1 {
@@ -556,7 +663,11 @@ html .drinks .drinks-content .column {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 40%;
+  width: 50%;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 html .drinks .drinks-content .column .drink-title {
@@ -576,8 +687,45 @@ html .drinks .drinks-content .column .drink-title:hover {
 }
 
 html .drinks .drinks-content .column .drink-description {
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin: 0 0 3rem;
+  width: 40rem;
+}
+
+html .drinks .drinks-content .img-column-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20rem;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html .drinks .drinks-content .img-column-content .img-column {
+  width: 15rem;
+  margin-bottom: 5rem;
+  border-radius: 50%;
+  -webkit-box-shadow: 7px 10px 10px #919191;
+          box-shadow: 7px 10px 10px #919191;
+}
+
+html .drinks .drinks-content .img-column-content .img-column:hover {
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
+  width: 16rem;
+}
+
+html .drinks .drinks-content .img-column-content .img-column:hover:after {
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 html .drinks-category {
@@ -644,11 +792,17 @@ html .drinks-category .card-content .card .rating-bar {
   height: 2rem;
   padding: 0;
   margin-left: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-min-content;
+  width: -moz-min-content;
+  width: min-content;
 }
 
 html .drinks-category .card-content .card .rating-bar .star {
   font-size: 2rem;
-  margin: 0;
+  margin: 0 .2rem 0 0;
 }
 
 html .drinks-category .card-content .card .checked {
