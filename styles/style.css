@@ -343,6 +343,7 @@ html .footer .rights-footer {
   font-size: 1.4rem;
   font-weight: 700;
   color: #666666;
+  margin: 0;
 }
 
 html .our-coffee-section {
@@ -543,6 +544,8 @@ html .about-us .empresa .text-content .p-fuerte {
 html .about-us .empresa .img-empresa {
   width: 50%;
   border-radius: 4rem;
+  -webkit-box-shadow: 7px 10px 10px #919191;
+          box-shadow: 7px 10px 10px #919191;
 }
 
 html .about-us .container-more-than-coffee {
@@ -562,6 +565,8 @@ html .about-us .container-more-than-coffee .more-than-coffee .more_than_coffee_i
   border-radius: 50%;
   width: 30rem;
   height: 30rem;
+  -webkit-box-shadow: 0px 10px 10px #919191;
+          box-shadow: 0px 10px 10px #919191;
 }
 
 html .about-us h4 {
